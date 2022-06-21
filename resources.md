@@ -1,2 +1,6 @@
 1. css variables(custom properties) also cascades and inherites.
    Also, they can be manipulated in js.
+2. align-items დიფოლტი სტრეჩ არის და ცენტრზე გადაყვანისას, გაწელილი
+   ჰეითი აღარ ექნება.
+3. ინფუტები არ აინჰერითებენ ფონტ ფემილის და ფონტ საიზს ავტომატურად და ხელით უნდა დავუსეტოთ.
+   მგონი ქოლორსაც არ აინჰერითებს.
