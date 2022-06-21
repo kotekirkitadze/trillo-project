@@ -66,16 +66,42 @@
 ///////////////////////////////
 /// User navigation
 .user-nav {
-	background-color: green;
+	background-color: rgb(16, 237, 197);
+	display: flex;
+	align-items: center;
+	align-self: stretch;
+
+	& > * {
+		padding: 0 2rem;
+		cursor: pointer;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	& > *:hover {
+		background-color: var(--color-grey-light-2);
+	}
+
 	&__icon-box {
 	}
 
 	&__icon {
 		width: 2.25rem;
 		height: 2.25rem;
+		fill: var(--color-grey-dark-2);
+		position: relative;
+		border: 2px solid red;
 	}
 
 	&__notification {
+		font-size: 0.8rem;
+		height: 1.75rem;
+		width: 1.75rem;
+		border-radius: 50%;
+		background-color: var(--color-primary);
+		color: #fff;
+		position: absolute;
 	}
 
 	&__user {
