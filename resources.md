@@ -21,3 +21,19 @@
 13. image should always be block or inline-block if we do not want white space.
 14. margin-right: auto; კარგი თრიქია რომ ელემენტს ფლექსის გამოყენებისას, თავისი ზომა
     მივაღებინოთ, მაგრამ ადგილი ქონდეს მარჯვინ ცარიელი.
+15. :not(:last-child) ბოლო ელემენტის გარდა ყველა შვილს ასელექთებს, მაგრამ
+    :not(:last-of-type) იმავე ტიპის ბოლო ელემენტის გარდა და რაღაც დროს
+    ლასთ ოფ თაიფ შეიძლება გვჭირდებოდეს.
+16. Basically masks defines area where we can look through the
+    element and see what is behind that element.
+    In our case, what we are gonna do is to set the background-color
+    of this element to a solid color, and then use the icon as the mask.
+    And so we can then look through that mask and see the background color in the area where the icon is and everything else is covered,
+    and so it is just gonna be white. ეს ფიჩერი იმიტომ გამოვიყენეთ,
+    რადგან ბექრაუნდ იმიჯით ფერის შეცვლა არ შეგვიძლია და ჩვენ რადგანაც
+    ესვიჯის ვსეტავდით ბექრაუნდზე და ფერის შეცვლაც გვინდოდა,
+    მაგიტომ გამოვიყენეთ მასკი.
+17. What border-box does is that it includes the padding and the border
+    into the width and height of the element.
+    box-sizing: content-box; კი პადინგს და მარჯინს ზემოდან ამატებს, თავის საიზებში არ შეყავს.
+    ანუ დიფოლტზე გადაყავს.
