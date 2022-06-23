@@ -37,3 +37,4 @@
     into the width and height of the element.
     box-sizing: content-box; კი პადინგს და მარჯინს ზემოდან ამატებს, თავის საიზებში არ შეყავს.
     ანუ დიფოლტზე გადაყავს.
+18. https://css-tricks.com/snippets/html/glyphs/
