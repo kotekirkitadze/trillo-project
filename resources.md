@@ -38,3 +38,4 @@
     box-sizing: content-box; კი პადინგს და მარჯინს ზემოდან ამატებს, თავის საიზებში არ შეყავს.
     ანუ დიფოლტზე გადაყავს.
 18. https://css-tricks.com/snippets/html/glyphs/
+19. transition does not work for background-image and for gradients.
