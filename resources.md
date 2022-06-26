@@ -39,3 +39,4 @@
     ანუ დიფოლტზე გადაყავს.
 18. https://css-tricks.com/snippets/html/glyphs/
 19. transition does not work for background-image and for gradients.
+20. align-content: space-around; ამ ფროფერთით ვაკონტროლებთ სფეისს როუებს შორის.
